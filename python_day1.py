@@ -23,7 +23,6 @@ print(name + "는 어른일까요? " + str(is_adult))     #bool형도 str 붙여
 주석 가능
 '''
 
-
 #변수 활용 퀴즈
 
 station = "사당"
@@ -41,5 +40,17 @@ print(10%3)     #나머지 1
 print(6/3)  #2.0
 print(10//3)    #3 
 
-print(10 >= 3)  #false
+print(10 >= 3)  #False
+
+print(3 == 3)    #True
+print(4 == 2)   #False
+print( 3+4 == 7)    #True
+
+print(not(1 != 3))  #False
+
+print((3>0) and (3<5))  #True
+print((3>0) & (3<5))  #True
+
+print((3>0) or (3>5))  # True
+print((3>0) | (3>5))  #True
 
