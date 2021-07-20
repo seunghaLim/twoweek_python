@@ -123,4 +123,3 @@ age = 20
 color = "빨간"
 print(f"나는 {age}살이며 {color}색을 좋아해요")
 
-
