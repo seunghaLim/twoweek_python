@@ -20,6 +20,7 @@ print(max(5, 12))   #12
 print(min(5, 12))   #5
 print(round(3.14))  #반올림함수 
 print(round(4.99)) 
+#round(14.234, 2) - 반올림해서 소수점 2자리까지 출력. 14.23
 
 from math import *      #라이브러리 호출
 print(floor(4.99))
