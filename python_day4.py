@@ -354,7 +354,7 @@ score_file.close()
 
 
 #피클 
-피클 만들기
+#피클 만들기
 import pickle
 file = open("profile.pickle", "wb")     #피클로 만들 때는 바이너리 모드로 열어야 함(wb)
 profile = {"이름": "박명수", "나이": 30, "취미": ["축구", "골프", "코딩"]}
@@ -362,7 +362,7 @@ print(file)
 pickle.dump(profile, file) #profile에 있는 정보를 profile_file에 저장
 file.close()
 
-피클 읽어오기
+#피클 읽어오기
 file = open("profile.pickle", "rb")
 profile = pickle.load(file)     #profile_file에 있는 정보를 profile에 불러오기
 print(file)
