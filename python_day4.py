@@ -51,7 +51,7 @@ starbucks = ["아이언맨", "블랙 위도우", "캡틴 아메리카"]
 for customers in starbucks:
     print("{0}님, 주문하신 커피 나왔습니다.".format(customers)) 
 
-while
+
 '''
 while 조건:
     실행할 내용
