@@ -131,7 +131,7 @@ from theater_module import price_soldier as price #theater_module 모듈의 pric
 price(5)        #모듈에 있는 price 함수가 아니라 price_soldier 함수가 호출됨
 
 #패키지 travel 패키지 안에 있는 thailand 모듈 안의 클래스
-import travel.thailand  #import 쓸 때 옆에 모듈이나 클래스 단위만 가능. import travel.thailand.ThailandPackage 는 안됨
+import travel.thailand  #import 쓸 때 옆에 모듈이나 패키지 단위만 가능. import travel.thailand.ThailandPackage 는 안됨
 trip_to = travel.thailand.ThailandPackage()
 trip_to.detail()    
 
