@@ -9,7 +9,7 @@ res = requests.get(url, headers=header)
 res.raise_for_status()
 soup = BeautifulSoup(res.text, "lxml")
 
-# #이름 가져오기
+# # #이름 가져오기
 # items = soup.find_all("li", attrs={"class": re.compile("^search-product")})     #태그가 li인 것 중 속성에서 class가 search_product로 시작하는 것들을 받아오기. 정규식 사용해서 정규식 패턴과 일치하는 것만 받아오고 있음
 # #print( items[0].find("div", attrs={"class" : "name"}).get_text())     #items 중 제일 첫번째 아이템인데 태그가 div이고 속성에서 class가 name인 것의 텍스트만 받아오기
 
